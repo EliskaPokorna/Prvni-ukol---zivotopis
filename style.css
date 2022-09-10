@@ -25,7 +25,7 @@ a{
 a:focus,
 a:active{
     font-weight: normal;
-    color:aquamarine;
+    color:#7fffd4;
     text-decoration: none;
 }
 
@@ -117,9 +117,10 @@ ul{
     background: #002529;
     background: linear-gradient(263deg, rgba(1,37,41,1) 0%, rgba(5,75,83,1) 60%);    
     padding: 20px 0 20px 0;
-    text-align: center;
     font-size: 18px;
+    text-align: center;
 
+    
 }
 
 .foto_vzdelani{
@@ -156,5 +157,8 @@ ul{
   'wght' 300,
   'GRAD' 200,
   'opsz' 48; 
+}
 
+.logo{
+    width: 60px;
 }
