@@ -1,0 +1,160 @@
+h1,
+h2{
+    line-height:normal;
+    font-weight:600;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+body{
+    color:#FFFFFF;
+    background-color:#FFFFFF;
+    line-height: normal;
+    font-weight: 200;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+}
+
+a{
+    color: #FFFFFF;
+}
+
+.hlavicka a:hover,
+a:focus,
+a:active{
+    font-weight: normal;
+    color:aquamarine;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 70px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    color: #054B53;
+    padding: 10px 0px 10px 0px;
+    border-radius: 30px;
+}
+
+.motto{
+    background: rgb(1,37,41);
+    background: linear-gradient(263deg, rgba(1,37,41,1) 0%, rgba(5,75,83,1) 60%);
+    color: #FFFFFF;
+    font-size: 30px;
+    padding: 30px 0 30px 0;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,37,41,0.55); 
+    box-shadow: 0px 0px 10px 0px rgba(0,37,41,0.55);
+}
+
+.hlavicka{
+    overflow: auto;
+    background-size: cover;
+    font-size: 30px;
+    line-height: 2;
+    background: rgb(78,142,149);
+    background: linear-gradient(90deg, rgba(78,142,149,1) 0%, rgba(4,88,97,1) 37%, rgba(5,75,83,1) 68%);
+}
+
+
+.foto{
+    width: 400px;
+    border: 3px solid #E0EFF1;
+    border-radius: 5% 5% 5% 40%;
+    float: left;
+    margin: 0px 100px 5% 10%;
+}
+
+ul{
+    font-size: 25px;
+    line-height: 2;
+    padding: 20px 0 20px 20%;  
+    color: #045861
+}
+
+
+.vzdelani{
+    background-color:#FFFFFF;
+    padding: 20px;
+}
+
+.pracovni_zkusenosti{
+    background: rgb(224,239,241);
+    background: radial-gradient(circle, rgba(224,239,241,1) 77%, rgba(255,255,255,1) 100%);
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,37,41,0.55); 
+    box-shadow: 0px 0px 10px 0px rgba(0,37,41,0.55);
+}
+
+
+.dovednosti{
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
+.jazykove_znalosti {
+    background: rgb(224,239,241);
+    background: radial-gradient(circle, rgba(224,239,241,1) 77%, rgba(255,255,255,1) 100%);
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,37,41,0.55); 
+    box-shadow: 0px 0px 10px 0px rgba(0,37,41,0.55);
+}
+
+
+.zajmy{
+    background-color:#FFFFFF;
+    padding: 50px;
+}
+
+.paticka{
+    color: #FFFFFF;
+    background: #002529;
+    background: linear-gradient(263deg, rgba(1,37,41,1) 0%, rgba(5,75,83,1) 60%);    
+    padding: 20px 0 20px 0;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.foto_vzdelani{
+    float: right;
+    margin: 0 20% 0 0;
+}
+
+.foto_pracovni_zkusenosti{
+    float: right;
+    margin: 0 20% 0 0;
+}
+
+.foto_dovednosti{
+    float: right;
+    margin: 0 20% 0 0;
+}
+
+.foto_jazykove_znalosti{
+    float: right;
+    margin: 0 20% 0 0;
+}
+
+.foto_zajmy{
+    float: right;
+    margin: 0 20% 0 0;
+}
+
+
+.material-symbols-outlined {
+  color: #E0EFF1;
+  margin-right: 25px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 200,
+  'opsz' 48; 
+
+}
