@@ -78,6 +78,10 @@ ul{
     color: #045861
 }
 
+li{
+    list-style: circle;
+}
+
 
 .vzdelani{
     background-color:#FFFFFF;
